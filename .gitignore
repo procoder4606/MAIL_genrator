@@ -4,8 +4,8 @@ env/
 ENV/
 
 # Streamlit Secrets
-#.streamlit/
-#secrets.toml
+#streamlit/
+secrets.toml
 
 # Python
 __pycache__/
