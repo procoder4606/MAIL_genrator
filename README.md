@@ -1,4 +1,4 @@
-# MailMate - AI Email Response Generator
+# MAIL-GENRATOR - AI Email Response Generator
 
 Automatically generate and send professional email responses using Google Gemini AI.
 
@@ -103,7 +103,7 @@ import streamlit as st
 from agents.email_agent import generate_email_response
 from utils.email_sender import send_email
 st.set_page_config(page_title="Auto Email Responder", layout="wide")
-st.title("📧 MailMate – Think Less, Send Smart")
+st.title("📧 MAIL-GENRATOR – Think Less, Send Smart")
 email_text = st.text_area("Paste the email content you received:", height=300)
 recipient_email = st.text_input("Recipient Email Address")
 tone = st.selectbox("Select response tone", ["Professional", "Friendly", "Apologetic", "Persuasive"])
@@ -143,7 +143,7 @@ Handles authentication and message formatting
 
 User Interface (app.py)
 
-Provides a web interface titled "MailMate – Think Less, Send Smart"
+Provides a web interface titled "MAIL-GENRATOR – Think Less, Send Smart"
 Input fields for: original email content, recipient address, and response tone
 Single-button operation to generate and send responses
 Displays the generated response before sending
@@ -255,7 +255,7 @@ Module not found: Make sure you're in the correct folder and installed dependenc
 Email sending fails: Check if "Less secure app access" is enabled or use App Password
 Secrets not found: Ensure .streamlit/secrets.toml is in the right location
 
-Would you like help with any specific step?RetrySGPS C:\Users\shlok\Desktop\shlok and aahand\MailMate> tree /F
+Would you like help with any specific step?RetrySGPS C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR> tree /F
 >> 
 Folder PATH listing
 Volume serial number is 649F-5B93
@@ -304,7 +304,7 @@ If You Get Errors:
 bashpip install streamlit openai
 "Secrets file not found":
 
-Make sure .streamlit\secrets.toml exists in C:\Users\shlok\Desktop\shlok and aahand\MailMate\.streamlit\
+Make sure .streamlit\secrets.toml exists in C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\.streamlit\
 
 Want to verify your structure is complete?
 Run this to see if secrets folder exists:
@@ -313,7 +313,7 @@ The output should show .streamlit\secrets.toml
 Need help with any specific step?RetrySGinstall using virual environomentHere's how to set up and run the project using a virtual environment:
 Step 1: Create Virtual Environment
 In PowerShell, navigate to your project folder:
-bashcd "C:\Users\shlok\Desktop\shlok and aahand\MailMate"
+bashcd "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR"
 Create the virtual environment:
 bashpython -m venv venv
 Step 2: Activate Virtual Environment
@@ -322,7 +322,7 @@ bash.\venv\Scripts\Activate
 
 Your prompt should now show `(venv)` at the beginning:
 ```
-(venv) PS C:\Users\shlok\Desktop\shlok and aahand\MailMate>
+(venv) PS C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR>
 Step 3: Install Dependencies
 bashpip install -r requirements.txt
 Step 4: Create Secrets File
@@ -346,7 +346,7 @@ bashdeactivate
 
 ## Your Complete Project Structure Should Be:
 ```
-MailMate/
+MAIL-GENRATOR/
 ├── venv/                    # Virtual environment (created)
 ├── .streamlit/
 │   └── secrets.toml        # Your API keys
@@ -366,7 +366,7 @@ bashwhere python
 Should show path to venv\Scripts\python.exe
 Ready to run? Let me know if you hit any errors! 🚀RetrySGPerfect! You've successfully generated both credentials. Now let's add them to your project:
 Update Your .streamlit\secrets.toml File
-Create or edit the file .streamlit\secrets.toml in your MailMate folder with these credentials:
+Create or edit the file .streamlit\secrets.toml in your MAIL-GENRATOR folder with these credentials:
 toml# Gemini API Key (from Image 2)
 GEMINI_API_KEY = "your-actual-gemini-api-key-here"
 
@@ -446,7 +446,7 @@ SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 Now Run Your Application
 bash# Make sure you're in the project directory
-cd "C:\Users\shlok\Desktop\shlok and aahand\MailMate"
+cd "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR"
 
 # Activate virtual environment
 .\venv\Scripts\Activate
@@ -501,14 +501,14 @@ You can now view your Streamlit app in your browser.
 
 Local URL: http://localhost:8501
 Network URL: http://192.168.x.x:8501
-Your browser will automatically open with the MailMate application! 🚀
+Your browser will automatically open with the MAIL-GENRATOR application! 🚀
 
 If You Get an Error:
 "ModuleNotFoundError" - Install dependencies:
 bashpip install streamlit google-generativeai
 "Virtual environment not activated" - The (venv) should show before PS:
 bash.\venv\Scripts\Activate
-Try running it now and let me know what happens!RetrySGwhat actually this project do in bullet pointsWhat This MailMate Project Actually Does:
+Try running it now and let me know what happens!RetrySGwhat actually this project do in bullet pointsWhat This MAIL-GENRATOR Project Actually Does:
 Core Purpose:
 
 Automatically writes email replies for you using AI (Google Gemini)
@@ -541,7 +541,7 @@ Email Sending: SMTP protocol through Gmail
 One-click operation: Generate + Send combined in single button
 
 Bottom Line:
-It's an AI email assistant that reads incoming emails, writes contextually appropriate responses in your chosen tone, and automatically sends them - saving you time and effort! ⚡📧RetrySG(venv) Pstreamlit run main.pytop\shlok and aahand\MailMate>
+It's an AI email assistant that reads incoming emails, writes contextually appropriate responses in your chosen tone, and automatically sends them - saving you time and effort! ⚡📧RetrySG(venv) Pstreamlit run main.pytop\shlok and aahand\MAIL-GENRATOR>
       👋 Welcome to Streamlit!
       If you'd like to receive helpful onboarding emails, news, offers, promotions,
       and the occasional swag, please enter your email address below. Otherwise,
@@ -565,10 +565,10 @@ You can now view your Streamlit app in your browser.
 
   Local URL: http://localhost:8501
   Network URL: http://192.168.x.x:8501
-Your browser will automatically open with the MailMate application! 🎉
+Your browser will automatically open with the MAIL-GENRATOR application! 🎉
 
 What You'll See in the Browser:
-📧 MailMate – Think Less, Send Smart
+📧 MAIL-GENRATOR – Think Less, Send Smart
 
 A large text area to paste email content
 An input field for recipient's email address
@@ -577,42 +577,42 @@ A "Generate & Send Email" button
 
 
 Just press Enter now and your app will launch! Let me know when you see the interface! 🚀RetrySGgoogle.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
-File "C:\Users\shlok\Desktop\shlok and aahand\MailMate\venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+File "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
     result = func()
              ^^^^^^
-File "C:\Users\shlok\Desktop\shlok and aahand\MailMate\venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 669, in code_to_exec
+File "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 669, in code_to_exec
     exec(code, module.__dict__)  # noqa: S102
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-File "C:\Users\shlok\Desktop\shlok and aahand\MailMate\main.py", line 17, in <module>
+File "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\main.py", line 17, in <module>
     response = generate_email_response(email_text, tone)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-File "C:\Users\shlok\Desktop\shlok and aahand\MailMate\agents\email_agent.py", line 15, in generate_email_response
+File "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\agents\email_agent.py", line 15, in generate_email_response
     response = model.generate_content(prompt)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-File "C:\Users\shlok\Desktop\shlok and aahand\MailMate\venv\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+File "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\venv\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
     response = self._client.generate_content(
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-File "C:\Users\shlok\Desktop\shlok and aahand\MailMate\venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+File "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
     response = rpc(
                ^^^^
-File "C:\Users\shlok\Desktop\shlok and aahand\MailMate\venv\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+File "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\venv\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
     return wrapped_func(*args, **kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-File "C:\Users\shlok\Desktop\shlok and aahand\MailMate\venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+File "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
     return retry_target(
            ^^^^^^^^^^^^^
-File "C:\Users\shlok\Desktop\shlok and aahand\MailMate\venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+File "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
     next_sleep = _retry_error_helper(
                  ^^^^^^^^^^^^^^^^^^^^
-File "C:\Users\shlok\Desktop\shlok and aahand\MailMate\venv\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+File "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\venv\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
     raise final_exc from source_exc
-File "C:\Users\shlok\Desktop\shlok and aahand\MailMate\venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+File "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
     result = target()
              ^^^^^^^^
-File "C:\Users\shlok\Desktop\shlok and aahand\MailMate\venv\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+File "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\venv\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
     return func(*args, **kwargs)
            ^^^^^^^^^^^^^^^^^^^^^
-File "C:\Users\shlok\Desktop\shlok and aahand\MailMate\venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+File "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
     raise exceptions.from_grpc_error(exc) from excShow moreThe error shows that the Gemini model name is incorrect. Let's fix your email_agent.py file:
 Fix the Model Name
 Open agents\email_agent.py and update it:
@@ -652,42 +652,42 @@ bash# Press Ctrl + C to stop
 # Then run again:
 streamlit run main.py
 Try it now and let me know if it works! 🚀RetrySGgoogle.api_core.exceptions.NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
-File "C:\Users\shlok\Desktop\shlok and aahand\MailMate\venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+File "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
     result = func()
              ^^^^^^
-File "C:\Users\shlok\Desktop\shlok and aahand\MailMate\venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 669, in code_to_exec
+File "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 669, in code_to_exec
     exec(code, module.__dict__)  # noqa: S102
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-File "C:\Users\shlok\Desktop\shlok and aahand\MailMate\main.py", line 17, in <module>
+File "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\main.py", line 17, in <module>
     response = generate_email_response(email_text, tone)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-File "C:\Users\shlok\Desktop\shlok and aahand\MailMate\agents\email_agent.py", line 16, in generate_email_response
+File "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\agents\email_agent.py", line 16, in generate_email_response
     response = model.generate_content(prompt)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-File "C:\Users\shlok\Desktop\shlok and aahand\MailMate\venv\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+File "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\venv\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
     response = self._client.generate_content(
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-File "C:\Users\shlok\Desktop\shlok and aahand\MailMate\venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+File "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
     response = rpc(
                ^^^^
-File "C:\Users\shlok\Desktop\shlok and aahand\MailMate\venv\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+File "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\venv\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
     return wrapped_func(*args, **kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-File "C:\Users\shlok\Desktop\shlok and aahand\MailMate\venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+File "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
     return retry_target(
            ^^^^^^^^^^^^^
-File "C:\Users\shlok\Desktop\shlok and aahand\MailMate\venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+File "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
     next_sleep = _retry_error_helper(
                  ^^^^^^^^^^^^^^^^^^^^
-File "C:\Users\shlok\Desktop\shlok and aahand\MailMate\venv\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+File "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\venv\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
     raise final_exc from source_exc
-File "C:\Users\shlok\Desktop\shlok and aahand\MailMate\venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+File "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
     result = target()
              ^^^^^^^^
-File "C:\Users\shlok\Desktop\shlok and aahand\MailMate\venv\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+File "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\venv\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
     return func(*args, **kwargs)
            ^^^^^^^^^^^^^^^^^^^^^
-File "C:\Users\shlok\Desktop\shlok and aahand\MailMate\venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+File "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR\venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
     raise exceptions.from_grpc_error(exc) from excShow moreThe issue is that your API key might be for Google AI Studio (free tier) which has different model names. Let's check and fix this:
 Update email_agent.py with the correct model name:
 pythonimport streamlit as st
@@ -708,7 +708,7 @@ Reply:
     response = model.generate_content(prompt)
     return response.text
 If that still doesn't work, let's check which models are available:
-Create a test file test_models.py in your MailMate folder:
+Create a test file test_models.py in your MAIL-GENRATOR folder:
 pythonimport google.generativeai as genai
 
 # Your API key
@@ -725,7 +725,7 @@ This will show you the exact model names available for your API key. Copy one of
 Let me know what models it shows! 🔍RetrySGhow to create a test fileCreate the Test File:
 Method 1: Using VS Code (Easiest)
 
-In VS Code, click on the MailMate folder in the left sidebar
+In VS Code, click on the MAIL-GENRATOR folder in the left sidebar
 Click the "New File" icon (📄 with a +)
 Name it: test_models.py
 Paste this code:
@@ -745,7 +745,7 @@ Save it (Ctrl + S)
 
 
 Method 2: Using PowerShell
-bash# In your terminal (make sure you're in MailMate folder)
+bash# In your terminal (make sure you're in MAIL-GENRATOR folder)
 notepad test_models.py
 When Notepad opens:
 
@@ -767,7 +767,7 @@ Available models:
   - models/gemini-1.5-pro
   - models/gemini-pro
 Copy one of these model names and we'll use it in your email_agent.py!
-What models does it show? 📋RetrySGvenv) PS C:\Users\shlok\Desktop\shlok and aahand\MailMate> python test_models.py
+What models does it show? 📋RetrySGvenv) PS C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR> python test_models.py
 Available models:
   - models/gemini-2.5-pro-preview-03-25
   - models/gemini-2.5-flash-preview-05-20
@@ -810,7 +810,7 @@ Available models:
   - models/gemini-2.5-flash-lite-preview-09-2025    
   - models/gemini-robotics-er-1.5-preview
   - models/gemini-2.5-computer-use-preview-10-2025  
-(venv) PS C:\Users\shlok\Desktop\shlok and aahand\MailMate>Show morePerfect! Now update your email_agent.py file with a working model:
+(venv) PS C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR>Show morePerfect! Now update your email_agent.py file with a working model:
 Update agents\email_agent.py:
 Open the file in VS Code and change it to:
 pythonimport streamlit as st
@@ -850,7 +850,7 @@ Click "Generate & Send Email"
 It should work now! 🎉 Let me know what happens!RetrySGmake gitigonor file and how to post it o n githubStep 1: Create .gitignore File
 In VS Code:
 
-Click on MailMate folder
+Click on MAIL-GENRATOR folder
 Click "New File" icon
 Name it: .gitignore
 Paste this content:
@@ -893,8 +893,8 @@ Save it (Ctrl + S)
 
 Step 2: Initialize Git Repository
 In your VS Code terminal:
-bash# Make sure you're in the MailMate folder
-cd "C:\Users\shlok\Desktop\shlok and aahand\MailMate"
+bash# Make sure you're in the MAIL-GENRATOR folder
+cd "C:\Users\shlok\Desktop\shlok and aahand\MAIL-GENRATOR"
 
 # Initialize git
 git init
@@ -903,7 +903,7 @@ git init
 git add .
 
 # Create first commit
-git commit -m "Initial commit: MailMate email responder"
+git commit -m "Initial commit: MAIL-GENRATOR email responder"
 
 Step 3: Create GitHub Repository
 
@@ -911,7 +911,7 @@ Go to github.com
 Click the "+" icon (top right) → "New repository"
 Fill in:
 
-Repository name: MailMate
+Repository name: MAIL-GENRATOR
 Description: "AI-powered email response generator using Gemini API"
 Keep it Public or Private (your choice)
 DON'T check "Initialize with README" (you already have files)
@@ -923,7 +923,7 @@ Click "Create repository"
 Step 4: Push to GitHub
 GitHub will show you commands. Use these in your terminal:
 bash# Add GitHub as remote
-git remote add origin https://github.com/YOUR-USERNAME/MailMate.git
+git remote add origin https://github.com/YOUR-USERNAME/MAIL-GENRATOR.git
 
 # Push your code
 git branch -M main
@@ -949,7 +949,7 @@ git commit -m "Remove secrets from tracking"
 
 Create a README.md (Optional but Recommended):
 Create README.md in VS Code:
-markdown# MailMate - AI Email Response Generator
+markdown# MAIL-GENRATOR - AI Email Response Generator
 
 Automatically generate and send professional email responses using Google Gemini AI.
 
@@ -1062,13 +1062,13 @@ You should NOT see:
 ❌ Any files with warnings
 
 Step 6: Commit Your Files
-bashgit commit -m "Initial commit: MailMate email responder"
+bashgit commit -m "Initial commit: MAIL-GENRATOR email responder"
 
 Step 7: Create GitHub Repository
 
 Go to github.com
 Click "+" → "New repository"
-Name: MailMate
+Name: MAIL-GENRATOR
 Description: "AI email response generator with Gemini"
 Keep Public or make Private
 DON'T check "Initialize with README"
@@ -1077,7 +1077,7 @@ Click "Create repository"
 
 Step 8: Connect to GitHub
 bash# Replace YOUR-USERNAME with your GitHub username
-git remote add origin https://github.com/YOUR-USERNAME/MailMate.git
+git remote add origin https://github.com/YOUR-USERNAME/MAIL-GENRATOR.git
 git branch -M main
 git push -u origin main
 
@@ -1122,7 +1122,7 @@ utils/email_sender.py
 
 📝 CREATE This File (Important!):
 README.md - So others know how to use it:
-markdown# MailMate - AI Email Response Generator
+markdown# MAIL-GENRATOR - AI Email Response Generator
 
 Automatically generate and send professional email responses using Google Gemini AI.
 
@@ -1161,7 +1161,7 @@ pip install -r requirements.txt
 ### 5. Create Secrets File
 Create a folder `.streamlit` and inside it create `secrets.toml`:
 ```
-MailMate/
+MAIL-GENRATOR/
 └── .streamlit/
     └── secrets.toml
 ```
@@ -1211,7 +1211,7 @@ MIT License
 
 ## 📦 **Your Final Folder Structure Should Look Like:**
 ```
-MailMate/
+MAIL-GENRATOR/
 ├── agents/
 │   └── email_agent.py
 ├── utils/
@@ -1227,7 +1227,7 @@ Method 1: GitHub Web Interface
 
 Go to github.com
 Click "+" → "New repository"
-Name it MailMate
+Name it MAIL-GENRATOR
 Click "Create repository"
 Click "uploading an existing file"
 Drag and drop only the files listed above (NOT the venv folder!)
@@ -1238,7 +1238,7 @@ Method 2: Upload ZIP
 
 Select ONLY the files/folders listed above
 Right-click → "Send to" → "Compressed (zipped) folder"
-Name it MailMate.zip
+Name it MAIL-GENRATOR.zip
 Upload to GitHub via web interface
 
 
@@ -1261,11 +1261,11 @@ Check the size of your zip file:
 ❌ Bad: > 10 MB (probably has venv folder!)
 
 
-Want me to help you verify before you upload? Share a screenshot of your MailMate folder! 📸RetrySGi have lossed all the file can you give me all correct filesNo problem! I'll give you all the correct files. Let's recreate everything from scratch:
+Want me to help you verify before you upload? Share a screenshot of your MAIL-GENRATOR folder! 📸RetrySGi have lossed all the file can you give me all correct filesNo problem! I'll give you all the correct files. Let's recreate everything from scratch:
 
 📁 Step 1: Create Project Structure
 Create these folders:
-MailMate/
+MAIL-GENRATOR/
 ├── .streamlit/
 ├── agents/
 └── utils/
@@ -1277,7 +1277,7 @@ from agents.email_agent import generate_email_response
 from utils.email_sender import send_email
 
 st.set_page_config(page_title="Auto Email Responder", layout="wide")
-st.title("📧 MailMate – Think Less, Send Smart")
+st.title("📧 MAIL-GENRATOR – Think Less, Send Smart")
 
 email_text = st.text_area("Paste the email content you received:", height=300)
 recipient_email = st.text_input("Recipient Email Address")
@@ -1411,7 +1411,7 @@ Thumbs.db
 *.log
 
 File 7: README.md
-markdown# MailMate - AI Email Response Generator
+markdown# MAIL-GENRATOR - AI Email Response Generator
 
 Automatically generate and send professional email responses using Google Gemini AI.
 
@@ -1483,8 +1483,8 @@ MIT License
 🚀 Quick Setup Commands
 Open PowerShell in a new folder and run:
 powershell# Create project structure
-mkdir MailMate
-cd MailMate
+mkdir MAIL-GENRATOR
+cd MAIL-GENRATOR
 mkdir agents, utils, .streamlit
 
 # Create virtual environment
@@ -1510,7 +1510,7 @@ After creating all files:
  App runs successfully
 
 
- ⚡ Code to Run MailMate - All Commands
+ ⚡ Code to Run MAIL-GENRATOR - All Commands
 
 METHOD 1: Using Batch Files (Easiest) 🖱️
 Just double-click these files:

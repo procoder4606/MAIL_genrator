@@ -1,10 +1,10 @@
 @echo off
-title MailMate - Windows Installer
+title MAIL-GENRATOR - Windows Installer
 color 0A
 
 echo.
 echo ========================================
-echo    MAILMATE - AUTOMATED INSTALLER
+echo    MAIL-GENRATOR - AUTOMATED INSTALLER
 echo ========================================
 echo.
 echo This script will:

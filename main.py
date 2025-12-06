@@ -4,7 +4,7 @@ from utils.email_sender import send_email
 
 # Page configuration
 st.set_page_config(
-    page_title="MailMate - AI Email Assistant",
+    page_title="MAIL-GENRATOR - AI Email Assistant",
     page_icon="📧",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -63,7 +63,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Header
-st.title("📧 MailMate")
+st.title("📧 MAIL-GENRATOR")
 st.markdown('<p class="subtitle">AI-Powered Email Response Generator</p>', unsafe_allow_html=True)
 
 # Sidebar with instructions

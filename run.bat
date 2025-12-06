@@ -1,10 +1,10 @@
 @echo off
-title MailMate - Email Responder
+title MAIL-GENRATOR - Email Responder
 color 0B
 
 echo.
 echo ========================================
-echo         MAILMATE - STARTING
+echo         MAIL-GENRATOR - STARTING
 echo ========================================
 echo.
 
@@ -34,7 +34,7 @@ echo Activating virtual environment...
 call venv\Scripts\activate.bat
 
 REM Start Streamlit
-echo Starting MailMate...
+echo Starting MAIL-GENRATOR...
 echo.
 echo The app will open in your browser automatically.
 echo To stop the app, press Ctrl+C in this window.
@@ -154,7 +154,7 @@ Please run install.bat first.
 
 After creating both files, your folder should look like:
 ```
-MailMate/
+MAIL-GENRATOR/
 ├── agents/
 │   └── email_agent.py
 ├── utils/
